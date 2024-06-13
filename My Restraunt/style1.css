@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color:red;
+    text-decoration: underline;
+
+}
+p{
+    font-style:italic;
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+}
+img {
+    margin-left: 100px;
+}
