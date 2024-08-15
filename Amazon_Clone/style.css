@@ -1,0 +1,1826 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.nav-logo {
+    height: 50px;
+    width: 150px;
+}
+.logo img {
+    height: 50px;
+    width: 150px;
+
+}
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+/** box2 **/
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon {
+    display: flex;
+    align-items:center;
+}
+/** box3 **/
+.nav-search {
+    display:flex;
+    justify-content: space-evenly;
+    background-color: brown;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.2rem;
+    background-color: rgb(255, 145, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+/** box4 **/
+span {
+    font-size: 0.7rem;
+}
+.nav-sec {
+    font-size: 0.85rem;
+    font-weight: 700px;
+}
+
+/**box6 **/
+.nav-cart i {
+    font-size: 30px;
+}
+
+
+
+.nav-cart  {
+    font-size: 0.85rem;
+    font-weight: 700px;
+}
+
+/** pannel **/
+.pannel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.pannel-options p {
+    display: inline;
+    margin-left: 20px;
+}
+.pannel-options {
+    width: 70%;
+    font-size: 0.85rem;
+    
+}
+.pannel-all {
+    margin-right: 200px;
+}
+
+/** hero section **/
+.hero-section {
+    height: 300px;
+}
+.hero-section img{
+    height: 350px;
+    width: 1300px;
+}
+body {
+    background-color: #d4d4d4;
+}
+
+
+/** shop-section **/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box {
+    border: 2px solid white;
+    height: 360px;
+    width:  304px;
+    background-color: white;
+   
+}
+.box1 {
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    background-color: white;
+    display: flex;
+}
+.box2 {
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    background-color: white;
+    display: flex;
+   
+}
+.box-img1 img {
+       height: 100px;
+       width: 126px;
+       background-color: white;
+}
+.box-img2 img {
+    height: 100px;
+    width: 126px;
+    background-color: white;
+}
+.box2-img1 img {
+    height: 115px;
+    width: 126px;
+    background-color: white;
+}
+.box2-img2 img{
+ height: 115px;
+ width: 126px;
+ background-color: white;
+}
+.box p{
+    font-size: 12px;
+    font-weight: 700px;
+    text-align: center;
+}
+.class1 p {
+    font-size: 13px;
+    font-weight: 700px;
+   color: rgb(18, 177, 240);
+   text-align: start;
+   padding-left: 10px;
+}
+.box3 {
+    border: 2px solid white;
+    height: 360px;
+    width:  305px;
+    background-color: white;
+}
+.box4 {
+    border: 2px solid white;
+    height: 360px;
+    width:  305x;
+    background-color: white;
+}
+.box5 {
+    border: 2px solid white;
+    height: 360px;
+    width:  300px;
+    background-color: white;
+}
+.box5-pcs {
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.box5-img img {
+    height: 300px;
+    width:  280px;
+    padding-left: 10px;
+    
+}
+.box5 h2{
+    text-align: center;
+    font-weight: 700px;
+}
+.box5 p{
+    font-size: 12px;
+    font-weight: 700px;
+    text-align: center;
+    color: rgb(18, 177, 240);
+    text-align: start;
+    padding-left: 10px;
+}
+.class2 p{
+    font-size: 16px;
+    font-weight: 700px;
+    color: rgb(35, 183, 241);
+}
+
+.box3-Spaces {
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+   
+    
+}
+.box3-items {
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+}
+.box3 h2{
+    text-align: center;
+    font-weight: 700px;
+}
+.box3 p{
+    font-size: 12px;
+    font-weight: 700px;
+    text-align: center;
+}
+.class2 p{
+    font-size: 13px;
+    font-weight: 700px;
+    color: rgb(18, 177, 240);
+    text-align: start;
+    padding-left: 10px;
+}
+.box3-img1 img {
+       height: 116px;
+       width:  126px;
+}
+.box3-img2 img {
+    height: 116px;
+    width: 126px;
+}
+.box3-img3 img {
+    height: 116px;
+    width: 126px;
+}
+.box3-img4 img {
+ height: 116px;
+ width: 126px;
+}
+.box4-fashions {
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+   
+    
+}
+.box4-shops {
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+}
+.box4 h2{
+    text-align: center;
+    font-weight: 700px;
+}
+.box4 p{
+    font-size: 12px;
+    font-weight: 700px;
+    text-align: center;
+}
+.class3 p{
+    font-size: 13px;
+    font-weight: 700px;
+    color: rgb(18, 177, 240);
+    text-align: start;
+    padding-left: 10px;
+}
+.box4-img1 img {
+    height: 116px;
+    width:  126px;
+}
+.box4-img2 img {
+ height: 116px;
+ width: 126px;
+}
+.box4-img3 img {
+    height: 116px;
+    width: 126px;
+}
+.box4-img4 img {
+ height: 116px;
+ width: 126px;
+}
+.explore-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.beauty-steals {
+    border: 2px solid white;
+    height: 350px;
+    width:  305px;
+    background-color: white;
+   
+}
+.beauty-steals h2{
+    text-align: center;
+    font-weight: 700px;
+}
+.beauty-steals p{
+    font-size: 14px;
+    font-weight: 700px;
+    color: rgb(18, 177, 240);
+    text-align: start;
+    padding-left: 10px;
+}
+.beauty-steals img{
+    border: 2px solid white;
+    height: 240px;
+    width:  280px;
+    padding-left: 10px;
+}
+.Toys {
+    border: 2px solid white;
+    height: 350px;
+    width:  305px;
+    background-color: white;
+}
+.box-toys {
+    border: 2px solid white;
+    height: 100px;
+    width:  280px;
+    margin-left: 15px;
+   
+}
+.img-toys img{
+    border: 2px solid white;
+    height: 240px;
+    width:  280px;
+    
+}
+.Toys h2{
+    text-align: center;
+    font-weight: 700px;
+}
+.Toys p{
+    font-size: 14px;
+    font-weight: 700px;
+    text-align: center;
+    color: rgb(18, 177, 240);
+    text-align: start;
+    padding-left: 10px;
+
+}
+.trends {
+    border: 2px solid white;
+    height: 350px;
+    width:  305x;
+    background-color: white;
+}
+.dresses-knits {
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+   
+    
+}
+.jackets-jewellry {
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+}
+.trends h2{
+    text-align: center;
+    font-weight: 700px;
+}
+.trends p{
+    font-size: 12px;
+    font-weight: 700px;
+    text-align: center;
+}
+.class5 p{
+    font-size: 13px;
+    font-weight: 700px;
+    color: rgb(18, 177, 240);
+    text-align: start;
+    padding-left: 10px;
+}
+.img-dresses img {
+    height: 116px;
+    width:  126px;
+}
+.img-knits img {
+ height: 116px;
+ width: 126px;
+}
+.img-jackets img {
+    height: 116px;
+    width: 126px;
+}
+.img-jewellry img {
+ height: 116px;
+ width: 126px;
+}
+.Home-decor {
+    border: 2px solid white;
+    height: 350px;
+    width:  305px;
+    background-color: white;
+}
+.decor {
+    border: 2px solid white;
+    height: 100px;
+    width:  280px;
+    margin-left: 15px;
+   
+}
+.img-decor img {
+    border: 2px solid white;
+    height: 240px;
+    width:  280px;
+    
+}
+.Home-decor h2{
+    text-align: center;
+    font-weight: 700px;
+}
+.Home-decor p{
+    font-size: 14px;
+    font-weight: 700px;
+    text-align: center;
+    color: rgb(18, 177, 240);
+    text-align: start;
+    padding-left: 10px;
+}
+.Product-section{
+    padding-left: 20px;
+    background-color: white;
+  
+}
+.baby-products{
+    border: 2px solid white;
+    height: 220px;
+    background-color: white;
+    display: flex;
+    justify-content: space-round;
+   
+}
+
+.product-1 {
+    border: 2px solid white;
+    height: 200px;
+    width:  270px;
+    background-color: white;
+   
+}
+.img-product1 img{
+    height: 177px;
+    width:  270px;
+}
+.product-2 {
+    border: 2px solid white;
+    height: 200px;
+    width:  184px;
+    background-color: white;
+   
+}
+.img-product2 img {
+    height: 200px;
+    width:  70px;
+}
+.product-3 {
+    border: 2px solid white;
+    height: 200px;
+    width:  198px;
+    background-color: white;
+   
+}
+.img-product3 img{
+    height: 200px;
+    width:  157px;
+}
+.product-4 {
+    border: 2px solid white;
+    height: 200px;
+    width:  225px;
+    background-color: white;
+   
+}
+.img-product4 img {
+    height: 200px;
+    width:  106x;
+}
+.product-5 {
+    border: 2px solid white;
+    height: 200px;
+    width:  270px;
+    background-color: white;
+   
+}
+.img-product5 img {
+    height: 175px;
+    width:  270px;
+}
+.product-6 {
+    border: 2px solid white;
+    height: 200px;
+    width:  70px;
+    background-color: white;
+   
+}
+.img-product6 img {
+    height: 200px;
+    width:  100px;
+}
+.heading h2{
+    border: 2px solid white;
+    font-weight: 700px;
+    height: 31px;
+    width:  1280px;
+    background-color: white;
+   
+}
+.marchandise-section {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.gaming-marchandise {
+    border: 2px solid white;
+    height: 360px;
+    width:  305px;
+    background-color: white;
+}
+.gaming-marchandise h2{
+    text-align: center;
+    font-weight: 700px;
+}
+.Apparel-Hats {
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+   
+    
+}
+.Action-Mugs {
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: space-evenly;
+}
+.img-Apparel img {
+    height: 116px;
+    width:  126px;
+}
+.img-Hats img {
+    height: 116px;
+    width:  126px;
+}
+.img-Action {
+    background-image: url("action_photo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 116px;
+    width:  126px;
+}
+.img-Mugs img {
+    height: 116px;
+    width:  126px;
+}
+.gaming-marchandise p{
+    font-size: 12px;
+    font-weight: 700px;
+    text-align: center;
+}
+.class6 p {
+    font-size: 13px;
+    font-weight: 700px;
+    color: rgb(18, 177, 240);
+    text-align: start;
+    padding-left: 10px;
+}
+
+.shop-activity{
+    border: 2px solid white;
+    height: 360px;
+    width:  307px;
+    background-color: white;
+}
+.shop-activity h2{
+    text-align: center;
+    font-weight: 700px;
+}
+.shop-activity p{
+    font-size: 14px;
+    font-weight: 700px;
+    color: rgb(18, 177, 240);
+    text-align: start;
+    padding-left: 10px;
+
+}
+.warming-decor {
+    border: 2px solid white;
+    height: 360px;
+    width:  305px;
+    background-color: white;
+}
+.decor h2{
+    text-align: center;
+    font-weight: 700px;
+}
+.warming-decor p{
+    font-size: 12px;
+    font-weight: 700px;
+    text-align: center;
+}
+.class7 p {
+    font-size: 13px;
+    font-weight: 700px;
+    color: rgb(18, 177, 240);
+    text-align: start;
+    padding-left: 10px;
+}
+.price {
+    border: 2px solid white;
+    height: 360px;
+    width:  305px;
+    background-color: white;
+}
+.price h2{
+    text-align: center;
+    font-weight: 700px;
+}
+.price p{
+    font-size: 14px;
+    font-weight: 700px;
+    color: rgb(18, 177, 240);
+    text-align: start;
+    padding-left: 20px;
+}
+.smartwatch{
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+}
+.img-smartwatch img {
+    border: 2px solid white;
+    margin-left: 15px;
+    height: 240px;
+    width:  240px;
+}
+.garlands-outdoors {
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pillow-walls {
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-garlands img{
+    height: 116px;
+    width:  126px;
+}
+.img-outdoors img{
+    height: 116px;
+    width:  126px;
+}
+.img-pillow img {
+    height: 116px;
+    width:  126px;
+}
+.img-walls img {
+    height: 116px;
+    width:  126px;
+}
+.shoes{
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+}
+.img-shoes img{
+    border: 2px solid white;
+    height: 250px;
+    width: 250px;
+    margin-left: 15px;
+}
+.gaming-section{
+    background-color: white;
+    justify-content: space-evenly;
+}
+.game-Sellers{
+    border: 2px solid white;
+    height: 220px;
+    background-color: white;
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-evenly;
+   
+}
+
+.sell-1 {
+    border: 2px solid white;
+    height: 200px;
+    width:  150px;
+    background-color: white;
+   
+}
+.img-sell1 img {
+    height: 200px;
+    width:  144px;
+}
+.sell-2 {
+    border: 2px solid white;
+    height: 200px;
+    width:  184px;
+    background-color: white;
+   
+}
+.img-sell2 img {
+    height: 200px;
+    width:  184px;
+}
+.sell-3 {
+    border: 2px solid white;
+    height: 200px;
+    width:  145px;
+    background-color: white;
+   
+}
+.img-sell3 img {
+    height: 200px;
+    width:  85px;
+}
+.sell-4 {
+    border: 2px solid white;
+    height: 200px;
+    width:  260px;
+    background-color: white;
+   
+}
+.img-sell4 img {
+    height: 200px;
+    width:  253x;
+}
+.sell-5 {
+    border: 2px solid white;
+    height: 200px;
+    width:  230px;
+    background-color: white;
+   
+}
+.img-sell5 img {
+    height: 200px;
+    width:  222px;
+}
+.heading1 h2{
+    border: 2px solid white;
+    font-weight: 700px;
+    height: 31px;
+    width:  1280px;
+    background-color: white;
+   
+}
+
+.Movies-section{
+    background-color: white;
+    justify-content: space-evenly;
+}
+.popular-Movies{
+    border: 2px solid white;
+    height: 220px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+.Movie1{
+    border: 2px solid white;
+    height: 200px;
+    width:  145px;
+    background-color: white;
+   
+}
+.img-Movie1 img {
+    height: 200px;
+    width:  133px;
+}
+.Movie2 {
+    border: 2px solid white;
+    height: 200px;
+    width:  157px;
+    background-color: white;
+   
+}
+.img-Movie2 img {
+    height: 200px;
+    width:  160px;
+}
+.Movie3{
+    border: 2px solid white;
+    height: 200px;
+    width:  157px;
+    background-color: white;
+   
+}
+.img-Movie3 img{
+    height: 200px;
+    width:  156px;
+}
+.Movie4 {
+    border: 2px solid white;
+    height: 200px;
+    width:  270px;
+    background-color: white;
+   
+}
+.img-Movie4 img {
+    height: 200px;
+    width:  270x;
+}
+.Movie5 {
+    border: 2px solid white;
+    height: 200px;
+    width:  143px;
+    background-color: white;
+   
+}
+.img-Movie5 img {
+    height: 200px;
+    width:  143px;
+}
+.heading2 h2{
+    border: 2px solid white;
+    font-weight: 700px;
+    height: 31px;
+    width:  1280px;
+    background-color: white;
+   
+}
+.Dining-section{
+    background-color: white;
+    justify-content: space-evenly;
+}
+.Kitchen-products{
+    border: 2px solid white;
+    height: 220px;
+    background-color: white;
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-evenly;
+   
+}
+.Bounty {
+    border: 2px solid white;
+    height: 200px;
+    width:  186px;
+    background-color: white;
+   }
+.img-Bounty img {
+    height: 200px;
+    width:  186px;
+}
+.bottle1 {
+    border: 2px solid white;
+    height: 200px;
+    width:  145px;
+    background-color: white;
+   
+}
+.img-bottle1 img {
+    height: 200px;
+    width:  100px;
+}
+.bottle2{
+    border: 2px solid white;
+    height: 200px;
+    width:  145px;
+    background-color: white;
+   
+}
+.img-bottle2 img {
+    height: 200px;
+    width:  59px;
+}
+.bottle3 {
+    border: 2px solid white;
+    height: 200px;
+    width:  68px;
+    background-color: white;
+   
+}
+.img-bottle3 img {
+    height: 200px;
+    width:  68x;
+}
+.bottle4{
+    border: 2px solid white;
+    height: 200px;
+    width:  300px;
+    background-color: white;
+   
+}
+.img-bottle4 img {
+    height: 200px;
+    width:  300px;
+}
+.scott{
+    border: 2px solid white;
+    height: 200px;
+    width:  236px;
+    background-color: white;
+   
+}
+.img-scott img {
+    background-image: url("scott_photo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width:  236px;
+}
+
+.heading4 h2{
+    border: 2px solid white;
+    font-weight: 700px;
+    height: 31px;
+    width:  1280px;
+    background-color: white;
+   
+}
+.sports-section{
+    background-color: white;
+    justify-content: space-evenly;
+}
+.outdoor-section{
+    border: 2px solid white;
+    height: 220px;
+    background-color: white;
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-evenly;
+   
+}
+
+.LB {
+    border: 2px solid white;
+    height: 200px;
+    width:  142px;
+    background-color: white;
+   
+}
+.img-LB img {
+    height: 200px;
+    width:  68px;
+}
+.sports1{
+    border: 2px solid white;
+    height: 200px;
+    width:  270px;
+    background-color: white;
+   
+}
+.img-sports1 img {
+    height: 125px;
+    width:  270px;
+}
+.sports2{
+    border: 2px solid white;
+    height: 200px;
+    width:  187px;
+    background-color: white;
+   
+}
+.img-sports2 img {
+    height: 200px;
+    width:  187px;
+}
+.sports3 {
+    border: 2px solid white;
+    height: 200px;
+    width:  203px;
+    background-color: white;
+   
+}
+.img-sports3 img {
+    height: 200px;
+    width:  203x;
+}
+
+.sports4{
+    border: 2px solid white;
+    height: 200px;
+    width:  200px;
+    background-color: white;
+   
+}
+.img-sports4 img{
+    background-image: url("sports5_photo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width:  200px;
+}
+
+.heading5 h2{
+    border: 2px solid white;
+    font-weight: 700px;
+    height: 31px;
+    width:  1280px;
+    background-color: white;
+   
+}
+
+.beauty-section{
+    background-color: white;
+    justify-content: space-evenly;
+}
+.beauty-products{
+    border: 2px solid white;
+    height: 220px;
+    background-color: white;
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-evenly;
+   }
+
+.prod1{
+    border: 2px solid white;
+    height: 200px;
+    width:  145px;
+    background-color: white;
+   
+}
+.img-prod1 img {
+    height: 200px;
+    width:  90px;
+}
+.prod2{
+    border: 2px solid white;
+    height: 200px;
+    width:  194px;
+    background-color: white;
+   
+}
+.img-prod2 {
+    height: 200px;
+    width:  194px;
+}
+.prod3{
+    border: 2px solid white;
+    height: 200px;
+    width:  145px;
+    background-color: white;
+   
+}
+.img-prod3 {
+    height: 200px;
+    width:  53px;
+}
+.prod4 {
+    border: 2px solid white;
+    height: 200px;
+    width:  145px;
+    background-color: white;
+   
+}
+.img-prod4 {
+    background-image: url("prod4_photo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width:  91x;
+}
+.prod5{
+    border: 2px solid white;
+    height: 200px;
+    width:  145px;
+    background-color: white;
+   
+}
+.img-prod5 img {
+
+    height: 200px;
+    width:  103px;
+}
+.prod6{
+    border: 2px solid white;
+    height: 200px;
+    width:  197px;
+    background-color: white;
+   
+}
+.img-prod6 img {
+    height: 200px;
+    width:  197px;
+}
+
+.heading6 h2{
+    border: 2px solid white;
+    font-weight: 700px;
+    height: 31px;
+    width:  1280px;
+    background-color: white;
+   
+}
+.season-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.outfit-section1{
+    border: 2px solid white;
+    height: 360px;
+    width:  305px;
+    background-color: white;
+}
+.outfit-section1 h2{
+    text-align: center;
+    font-weight: 700px;
+}
+.outfit-section1 p{
+    font-size: 12px;
+    font-weight: 700px;
+    text-align: center;
+}
+.class8 p{
+    font-size: 14px;
+    font-weight: 700px;
+    color: rgb(18, 177, 240);
+    text-align: start;
+    padding-left: 10px;
+}
+
+.games-section{
+    border: 2px solid white;
+    height: 360px;
+    width:  307px;
+    background-color: white;
+}
+.games-section h2{
+    text-align: center;
+    font-weight: 700px;
+}
+.games-section p{
+    font-size: 12px;
+    font-weight: 700px;
+    text-align: center;
+}
+.class9 p{
+    font-size: 14px;
+    font-weight: 700px;
+    color: rgb(18, 177, 240);
+    text-align: start;
+    padding-left: 10px;
+}
+.players-section {
+    border: 2px solid white;
+    height: 360px;
+    width:  305px;
+    background-color: white;
+}
+.players-section h2{
+    text-align: center;
+    font-weight: 700px;
+}
+.players-section p{
+    font-size: 14px;
+    font-weight: 700px;
+    color: rgb(18, 177, 240);
+    text-align: start;
+    padding-left: 10px;
+}
+.fun-section {
+    border: 2px solid white;
+    height: 360px;
+    width:  305px;
+    background-color: white;
+}
+.fun-section h2{
+    text-align: center;
+    font-weight: 700px;
+}
+.fun-section p{
+    font-size: 12px;
+    font-weight: 700px;
+    text-align: center;
+}
+.class10 p{
+    font-size: 14px;
+    font-weight: 700px;
+    color: rgb(18, 177, 240);
+    text-align: start;
+    padding-left: 10px;
+}
+
+
+.outfit{
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+   
+    
+}
+.outfits {
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: space-evenly;
+}
+.outfit1-img img {
+    height: 116px;
+    width:  126px;
+}
+.outfit2-img img {
+    height: 116px;
+    width:  126px;
+}
+.outfit3-img img {
+    height: 116px;
+    width:  126px;
+}
+.outfit4-img img {
+    height: 116px;
+    width:  126px;
+}
+.pc-xbox{
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+   
+    
+}
+.play-switch {
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: space-evenly;
+}
+.img-pc img {
+    height: 116px;
+    width:  126px;
+}
+.img-xbox img {
+    height: 116px;
+    width:  126px;
+}
+.img-play img{
+    height: 116px;
+    width:  126px;
+}
+.img-switch img{
+    height: 116px;
+    width:  126px;
+}
+.para{
+    border: 2px solid white;
+    height: 250px;
+    width:  270px;
+}
+.img-para img{
+    height: 250px;
+    width:  300px;
+    }
+
+.play-section{
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+   
+    
+}
+.figure {
+    border: 2px solid white;
+    height: 100px;
+    width:  300px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: space-evenly;
+}
+.playsets-img img{
+    height: 116px;
+    width:  126px;
+}
+.learning-img img {
+    height: 116px;
+    width:  126px;
+}
+.img-action1 img{
+    height: 116px;
+    width:  126px;
+}
+.playtoys-img img {
+    height: 116px;
+    width:  126px;
+}
+.books-section{
+    background-color: white;
+    justify-content: space-evenly;
+}
+.book-sellers{
+    border: 2px solid white;
+    height: 220px;
+    background-color: white;
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-evenly;
+   
+}
+
+.book1{
+    border: 2px solid white;
+    height: 200px;
+    width:  145px;
+    background-color: white;
+   
+}
+.img-book1 img {
+    height: 200px;
+    width:  133px;
+}
+.book2 {
+    border: 2px solid white;
+    height: 200px;
+    width:  145px;
+    background-color: white;
+   
+}
+.img-book2 img {
+    height: 200px;
+    width:  133px;
+}
+.book3{
+    border: 2px solid white;
+    height: 200px;
+    width:  145px;
+    background-color: white;
+   
+}
+.img-book3 img {
+    height: 200px;
+    width:  132px;
+}
+.book4 {
+    border: 2px solid white;
+    height: 200px;
+    width:  145px;
+    background-color: white;
+   
+}
+.img-book4 img{
+    height: 200px;
+    width:   133x;
+}
+.book5{
+    border: 2px solid white;
+    height: 200px;
+    width:  145px;
+    background-color: white;
+   
+}
+.img-book5 img{
+    height: 200px;
+    width:  133px;
+}
+.book6{
+    border: 2px solid white;
+    height: 200px;
+    width:  145px;
+    background-color: white;
+   
+}
+.img-book6 img{
+    height: 200px;
+    width:  134px;
+}
+.book7{
+    border: 2px solid white;
+    height: 200px;
+    width:  145px;
+    background-color: white;
+   
+}
+.img-book7 img{
+    height: 200px;
+    width:  133px;
+}
+.book8{
+    border: 2px solid white;
+    height: 200px;
+    width:  145px;
+    background-color: white;
+   
+}
+.img-book8 img{
+    height: 200px;
+    width:  133px;
+}
+
+.heading7 h2{
+    border: 2px solid white;
+    font-weight: 700px;
+    height: 31px;
+    width:  1280px;
+    background-color: white;
+   
+}
+.outer {
+    background-color: white;
+    height: 150px;
+    width:  1300px;
+}
+.recommendation{
+   background-color: white;
+   height: 15px;
+   width: 1015px;
+
+}
+.heading9 h4{
+    text-align: center;
+    font-weight: 400;
+}
+button {
+    background-color: white;
+   height: 15px;
+   width: 1015px;
+   text-align: center;
+}
+.signin{
+    text-align: center;
+    height: 20px;
+}
+.btn {
+    font-size: 15px;
+    color: black;
+    background-color: rgba(240, 143, 17, 0.979);
+    border: 2px solid rgba(240, 143, 17, 0.979);
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    }
+.customer{
+    background-color: white;
+    height: 15px;
+    width:  1250px;
+ 
+ }
+ .heading10 h5{
+     text-align: center;
+     font-weight: 400;
+ }
+
+ /** footer **/
+ .footer{
+    margin-top: 15px;
+    background-color: white;
+ }
+ .foot-pannel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+ }
+ .foot-pannel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    
+ }
+ ul {
+    margin-top: 20px;
+ }
+ ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+ }
+ ul a:hover {
+    text-decoration: underline;
+}
+ .foot-pannel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 90px;
+    display: flex;
+    align-items: center;
+ }
+ .amazon{
+    background-color: #222f3d;
+    height: 60px;
+    width:  100px;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 300px;
+
+ }
+ .logo img {
+    height: 50px;
+    width: 100px;
+    background-color: white;
+ }
+ .pannel-section2{
+    background-color: #222f3d;
+    height: 35px;
+    width: 441px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 100px;
+ }
+ .language {
+    border: 1.5px solid grey;
+}
+.add-icon2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+}
+.Dollar {
+    border: 1.5px solid grey;
+}
+.add-icon3 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+}
+.Country {
+    border: 1.5px solid grey;
+}
+.Country img{
+    height: 17px;
+    width: 20px;
+}
+.add-icon4 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+}
+.foot-pannel4{
+    background-color: #131A22;
+    color: white;
+    border-top: 0.5px solid #131A22 ;
+    height: 400px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .div1 {
+    font-size: 12px;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: #dddddd;
+    margin-top: 10px;
+    justify-content: space-evenly ;
+    align-items: center;
+    text-decoration: hover;
+ }
+ .music:hover{
+    text-decoration: underline;
+ }
+ .global:hover{
+    text-decoration: underline;
+ }
+ .pro:hover{
+    text-decoration: underline;
+ }
+ .div2 {
+    font-size: 12px;
+    padding-top: 30px;
+    padding-left: 10px;
+    color: #dddddd;
+    justify-content: space-evenly ;
+    align-items: center;
+ }
+ .Ads:hover{
+    text-decoration: underline;
+ }
+ .Services:hover{
+    text-decoration: underline;
+ }
+ .publishing:hover{
+    text-decoration: underline;
+ }
+ .wifi:hover{
+    text-decoration: underline;
+ }
+ .div3 {
+    font-size: 12px;
+    padding-top: 30px;
+    padding-left: 10px;
+    color: #dddddd;
+    justify-content: space-evenly ;
+    align-items: center;
+ }
+ .pm:hover{
+    text-decoration: underline;
+ }
+ .web:hover{
+    text-decoration: underline;
+ }
+ .video:hover{
+    text-decoration: underline;
+ }
+ .Blink:hover{
+    text-decoration: underline;
+ }
+ .div4 {
+    font-size: 12px;
+    padding-top: 30px;
+    padding-left: 10px;
+    color: #dddddd;
+    justify-content: space-evenly ;
+    align-items: center;
+ }
+ .Abe:hover{
+    text-decoration: underline;
+ }
+ .Audible:hover{
+    text-decoration: underline;
+ }
+ .shop:hover{
+    text-decoration: underline;
+ }
+ .App:hover{
+    text-decoration: underline;
+ }
+ .div5 {
+    font-size: 12px;
+    padding-top: 30px;
+    padding-left: 10px;
+    color: #dddddd;
+    justify-content: space-evenly ;
+    align-items: center;
+ }
+ .AX:hover{
+    text-decoration: underline;
+ }
+ .Box-office:hover{
+    text-decoration: underline;
+ }
+ .woot:hover{
+    text-decoration: underline;
+ }
+ .subscription:hover{
+    text-decoration: underline;
+ }
+ .div6 {
+    font-size: 12px;
+    padding-top: 30px;
+    padding-left: 10px;
+    color: #dddddd;
+    justify-content: space-evenly ;
+    align-items: center;
+}
+.selling:hover{
+    text-decoration: underline;
+ }
+ .reads:hover{
+    text-decoration: underline;
+ }
+ .zop:hover{
+    text-decoration: underline;
+ }
+ .pill:hover{
+    text-decoration: underline;
+ }
+ .div7 {
+    font-size: 12px;
+    padding-top: 30px;
+    padding-right: 30px;
+    color: #dddddd;
+    justify-content: space-evenly ;
+    align-items: center;
+ }
+ .Business:hover{
+    text-decoration: underline;
+ }
+ .IMdb:hover{
+    text-decoration: underline;
+ }
+ .ring:hover{
+    text-decoration: underline;
+ }
+ .foot-pannel5{
+    background-color:  #131A22;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+ }
+ .pages  {
+    padding-top: 25px;
+   
+ }
+ .pages:hover{
+    text-decoration: underline;
+ }
+ .copyright {
+    padding-top: 5px;
+}
+
+
+
+
